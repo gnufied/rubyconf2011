@@ -1,0 +1,5 @@
+scripts/perftools/bar/db/development.sqlite3
+scripts/perftools/bar/log
+scripts/perftools/bar/db/production.sqlite3
+scripts/perftools/bar/public/assets/
+scripts/perftools/bar/tmp/

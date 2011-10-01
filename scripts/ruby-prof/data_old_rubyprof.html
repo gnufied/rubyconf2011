@@ -1,0 +1,789 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <style media="all" type="text/css">
+    table {
+      border-collapse: collapse;
+      border: 1px solid #CCC;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      line-height: normal;
+      width: 100%;
+    }
+
+    th {
+      text-align: center;
+      border-top: 1px solid #FB7A31;
+      border-bottom: 1px solid #FB7A31;
+      background: #FFC;
+      padding: 0.3em;
+      border-left: 1px solid silver;
+    }
+
+    tr.break td {
+      border: 0;
+      border-top: 1px solid #FB7A31;
+      padding: 0;
+      margin: 0;
+    }
+
+    tr.method td {
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0.3em;
+    }
+
+    td:first-child {
+      width: 190px;
+      }
+
+    td {
+      border-left: 1px solid #CCC;
+      text-align: center;
+    }
+
+    .method_name {
+      text-align: left;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Profile Report</h1>
+    <!-- Threads Table -->
+    <table>
+      <tr>
+        <th>Thread ID</th>
+        <th>Total Time</th>
+      </tr>
+      
+      <tr>
+        <td><a href="#15346140">15346140</a></td>
+        <td>1.960488951</td>
+      </tr>
+      
+    </table>
+
+    <!-- Methods Tables -->
+    
+      <h2><a name="15346140">Thread 15346140</a></h2>
+
+      <table>
+        <tr>
+          <th>  %Total</th>
+          <th>   %Self</th>
+          <th>     Total</th>
+          <th>      Self</th>
+          <th>      Wait</th>
+          <th>       Child</th>
+          <th>               Calls</th>
+          <th class="method_name">Name</th>
+          <th>Line</th>
+        </tr>
+
+        
+
+            <!-- Parents -->
+            
+
+            <tr class="method">
+              <td> 100.00%</td>
+              <td>   0.00%</td>
+              <td>      1.96</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      1.96</td>
+              <td>                   1</td>
+              <td class="method_name"><a name="Global_[No method]_15346140">Global#[No method]</a></td>
+              <td><a href="file:///home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb#8" title="/home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb:8">8</a></td>
+            </tr>
+
+            <!-- Children -->
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      1.96</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      1.96</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#MoreComplex_start_15346140">MoreComplex#start</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb#8" title="/home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb:8">8</a></td>
+              </tr>
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#Class_new_15346140">Class#new</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb#8" title="/home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb:8">8</a></td>
+              </tr>
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      1.96</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      1.96</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#Global_[No method]_15346140">Global#[No method]</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb#8" title="/home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb:8">8</a></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td> 100.00%</td>
+              <td>   0.00%</td>
+              <td>      1.96</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      1.96</td>
+              <td>                   1</td>
+              <td class="method_name"><a name="MoreComplex_start_15346140">MoreComplex#start</a></td>
+              <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#6" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:6">6</a></td>
+            </tr>
+
+            <!-- Children -->
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.78</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.78</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#MoreComplex_make_strings_15346140">MoreComplex#make_strings</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#7" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:7">7</a></td>
+              </tr>
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.71</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.71</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#MoreComplex_symbolize_keys_15346140">MoreComplex#symbolize_keys</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#9" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:9">9</a></td>
+              </tr>
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.47</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.47</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#MoreComplex_upcase_strings_15346140">MoreComplex#upcase_strings</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#8" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:8">8</a></td>
+              </tr>
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.47</td>
+                <td>      0.24</td>
+                <td>      0.00</td>
+                <td>      0.24</td>
+                
+                <td>                 1/2</td>
+                <td class="method_name"><a href="#MoreComplex_upcase_strings_15346140">MoreComplex#upcase_strings</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#19" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:19">19</a></td>
+              </tr>
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.71</td>
+                <td>      0.29</td>
+                <td>      0.00</td>
+                <td>      0.41</td>
+                
+                <td>                 1/2</td>
+                <td class="method_name"><a href="#MoreComplex_symbolize_keys_15346140">MoreComplex#symbolize_keys</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#26" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:26">26</a></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>  60.29%</td>
+              <td>  27.09%</td>
+              <td>      1.18</td>
+              <td>      0.53</td>
+              <td>      0.00</td>
+              <td>      0.65</td>
+              <td>                   2</td>
+              <td class="method_name"><a name="Hash_each_15346140">Hash#each</a></td>
+              <td></td>
+            </tr>
+
+            <!-- Children -->
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.27</td>
+                <td>      0.27</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       100000/100000</td>
+                <td class="method_name"><a href="#String_to_sym_15346140">String#to_sym</a></td>
+                <td></td>
+              </tr>
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.26</td>
+                <td>      0.26</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       200000/300000</td>
+                <td class="method_name"><a href="#Hash_[]__15346140">Hash#[]=</a></td>
+                <td></td>
+              </tr>
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.12</td>
+                <td>      0.12</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       100000/100000</td>
+                <td class="method_name"><a href="#String_upcase_15346140">String#upcase</a></td>
+                <td></td>
+              </tr>
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.78</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.78</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#MoreComplex_start_15346140">MoreComplex#start</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#7" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:7">7</a></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>  39.71%</td>
+              <td>   0.00%</td>
+              <td>      0.78</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      0.78</td>
+              <td>                   1</td>
+              <td class="method_name"><a name="MoreComplex_make_strings_15346140">MoreComplex#make_strings</a></td>
+              <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#12" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:12">12</a></td>
+            </tr>
+
+            <!-- Children -->
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.78</td>
+                <td>      0.39</td>
+                <td>      0.00</td>
+                <td>      0.38</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#Integer_times_15346140">Integer#times</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#13" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:13">13</a></td>
+              </tr>
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.78</td>
+                <td>      0.39</td>
+                <td>      0.00</td>
+                <td>      0.38</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#MoreComplex_make_strings_15346140">MoreComplex#make_strings</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#13" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:13">13</a></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>  39.71%</td>
+              <td>  20.13%</td>
+              <td>      0.78</td>
+              <td>      0.39</td>
+              <td>      0.00</td>
+              <td>      0.38</td>
+              <td>                   1</td>
+              <td class="method_name"><a name="Integer_times_15346140">Integer#times</a></td>
+              <td></td>
+            </tr>
+
+            <!-- Children -->
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.21</td>
+                <td>      0.21</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       200000/200000</td>
+                <td class="method_name"><a href="#Fixnum_to_s_15346140">Fixnum#to_s</a></td>
+                <td></td>
+              </tr>
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.18</td>
+                <td>      0.18</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       100000/300000</td>
+                <td class="method_name"><a href="#Hash_[]__15346140">Hash#[]=</a></td>
+                <td></td>
+              </tr>
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.71</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.71</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#MoreComplex_start_15346140">MoreComplex#start</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#9" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:9">9</a></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>  36.10%</td>
+              <td>   0.00%</td>
+              <td>      0.71</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      0.71</td>
+              <td>                   1</td>
+              <td class="method_name"><a name="MoreComplex_symbolize_keys_15346140">MoreComplex#symbolize_keys</a></td>
+              <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#24" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:24">24</a></td>
+            </tr>
+
+            <!-- Children -->
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.71</td>
+                <td>      0.29</td>
+                <td>      0.00</td>
+                <td>      0.41</td>
+                
+                <td>                 1/2</td>
+                <td class="method_name"><a href="#Hash_each_15346140">Hash#each</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#26" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:26">26</a></td>
+              </tr>
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.47</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.47</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#MoreComplex_start_15346140">MoreComplex#start</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#8" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:8">8</a></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>  24.19%</td>
+              <td>   0.00%</td>
+              <td>      0.47</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      0.47</td>
+              <td>                   1</td>
+              <td class="method_name"><a name="MoreComplex_upcase_strings_15346140">MoreComplex#upcase_strings</a></td>
+              <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#18" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:18">18</a></td>
+            </tr>
+
+            <!-- Children -->
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.47</td>
+                <td>      0.24</td>
+                <td>      0.00</td>
+                <td>      0.24</td>
+                
+                <td>                 1/2</td>
+                <td class="method_name"><a href="#Hash_each_15346140">Hash#each</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#19" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:19">19</a></td>
+              </tr>
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.18</td>
+                <td>      0.18</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       100000/300000</td>
+                <td class="method_name"><a href="#Integer_times_15346140">Integer#times</a></td>
+                <td></td>
+              </tr>
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.26</td>
+                <td>      0.26</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       200000/300000</td>
+                <td class="method_name"><a href="#Hash_each_15346140">Hash#each</a></td>
+                <td></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>  22.31%</td>
+              <td>  22.31%</td>
+              <td>      0.44</td>
+              <td>      0.44</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>              300000</td>
+              <td class="method_name"><a name="Hash_[]__15346140">Hash#[]=</a></td>
+              <td></td>
+            </tr>
+
+            <!-- Children -->
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.27</td>
+                <td>      0.27</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       100000/100000</td>
+                <td class="method_name"><a href="#Hash_each_15346140">Hash#each</a></td>
+                <td></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>  13.78%</td>
+              <td>  13.78%</td>
+              <td>      0.27</td>
+              <td>      0.27</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>              100000</td>
+              <td class="method_name"><a name="String_to_sym_15346140">String#to_sym</a></td>
+              <td></td>
+            </tr>
+
+            <!-- Children -->
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.21</td>
+                <td>      0.21</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       200000/200000</td>
+                <td class="method_name"><a href="#Integer_times_15346140">Integer#times</a></td>
+                <td></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>  10.61%</td>
+              <td>  10.61%</td>
+              <td>      0.21</td>
+              <td>      0.21</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>              200000</td>
+              <td class="method_name"><a name="Fixnum_to_s_15346140">Fixnum#to_s</a></td>
+              <td></td>
+            </tr>
+
+            <!-- Children -->
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.12</td>
+                <td>      0.12</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>       100000/100000</td>
+                <td class="method_name"><a href="#Hash_each_15346140">Hash#each</a></td>
+                <td></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>   6.08%</td>
+              <td>   6.08%</td>
+              <td>      0.12</td>
+              <td>      0.12</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>              100000</td>
+              <td class="method_name"><a name="String_upcase_15346140">String#upcase</a></td>
+              <td></td>
+            </tr>
+
+            <!-- Children -->
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#Global_[No method]_15346140">Global#[No method]</a></td>
+                <td><a href="file:///home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb#8" title="/home/ubuntu/rubyconf/scripts/ruby-prof/cpu_complex_oo_profile.rb:8">8</a></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>   0.00%</td>
+              <td>   0.00%</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>                   1</td>
+              <td class="method_name"><a name="Class_new_15346140">Class#new</a></td>
+              <td></td>
+            </tr>
+
+            <!-- Children -->
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#MoreComplex_initialize_15346140">MoreComplex#initialize</a></td>
+                <td></td>
+              </tr>
+            
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#_Class__BasicObject__allocate_15346140">&lt;Class::BasicObject&gt;#allocate</a></td>
+                <td></td>
+              </tr>
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#Class_new_15346140">Class#new</a></td>
+                <td></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>   0.00%</td>
+              <td>   0.00%</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>                   1</td>
+              <td class="method_name"><a name="MoreComplex_initialize_15346140">MoreComplex#initialize</a></td>
+              <td><a href="file:///home/ubuntu/rubyconf/scripts/more_complex_oo.rb#2" title="/home/ubuntu/rubyconf/scripts/more_complex_oo.rb:2">2</a></td>
+            </tr>
+
+            <!-- Children -->
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+
+            <!-- Parents -->
+            
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                
+                <td>                 1/1</td>
+                <td class="method_name"><a href="#Class_new_15346140">Class#new</a></td>
+                <td></td>
+              </tr>
+            
+
+            <tr class="method">
+              <td>   0.00%</td>
+              <td>   0.00%</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>      0.00</td>
+              <td>                   1</td>
+              <td class="method_name"><a name="_Class__BasicObject__allocate_15346140">&lt;Class::BasicObject&gt;#allocate</a></td>
+              <td></td>
+            </tr>
+
+            <!-- Children -->
+            
+            <!-- Create divider row -->
+            <tr class="break"><td colspan="9"></td></tr>
+        
+      </table>
+    
+  </body>
+</html>
